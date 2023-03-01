@@ -42,9 +42,9 @@ function App() {
         setShowAdd(true);
     };
     const handleSumbit = (title) => {
-        setTodoList([
+        setTodoList((currentTodoList) => [
             { title, status: new Date().toDateString() },
-            ...todoList,
+            ...currentTodoList,
         ]);
         setShowAdd(false);
     };
