@@ -142,12 +142,12 @@ function App() {
         { title: '开发任务-5', status: '22-05-22 18:15' },
         { title: '测试任务-3', status: '22-05-22 18:15' },
     ]);
-    const [ongoingList, setOngoingList] = useState([
+    const [ongoingList] = useState([
         { title: '开发任务-4', status: '22-05-22 18:15' },
         { title: '开发任务-6', status: '22-05-22 18:15' },
         { title: '测试任务-2', status: '22-05-22 18:15' },
     ]);
-    const [doneList, setDoneList] = useState([
+    const [doneList] = useState([
         { title: '开发任务-2', status: '22-05-22 18:15' },
         { title: '测试任务-1', status: '22-05-22 18:15' },
     ]);
