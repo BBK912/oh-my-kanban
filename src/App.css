@@ -1,10 +1,9 @@
 .App {
   display: flex;
   flex-direction: column;
-  gap:1rem;
+  gap: 1rem;
   height: 100vh;
   text-align: center;
-  
 }
 
 .App-logo {
@@ -19,7 +18,7 @@
 }
 
 .App-header {
-  flex:1;
+  flex: 1;
   margin: 1rem 1rem 0;
   border-radius: 1rem;
   background-color: #282c34;
@@ -31,7 +30,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-header > h1 > * {
+  margin-left: 1rem;
+}
+.App-header > h1 > label {
+  font-size: initial;
+  font-weight: initial;
+}
 
 /* .kanban-column {
   flex: 1 1;
@@ -59,7 +64,7 @@
   line-height: 1rem;
   font-size: 1rem;
 } */
-    
+
 /* .card-title > input[type="text"] {
   width: 80%;
 } */
@@ -72,7 +77,7 @@
   background-color: rgba(255, 255, 255, 0.4);
   text-align: left;
 } */
-    
+
 /* .card-title {
   min-height: 3rem;
 }
@@ -90,15 +95,15 @@
 } */
 
 .column-todo {
-  background-color: #C9AF97;
+  background-color: #c9af97;
 }
 
 .column-ongoing {
-  background-color: #FFE799;
+  background-color: #ffe799;
 }
 
 .column-done {
-  background-color: #C0E8BA;
+  background-color: #c0e8ba;
 }
 .App-link {
   color: #61dafb;
